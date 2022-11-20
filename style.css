@@ -1,0 +1,318 @@
+nav{
+    
+    position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+.heading{
+    display: inline-block;
+    margin-left: 130px;
+    color: #ffc800;
+    font-size: 24px;
+    font-family: 'Pacifico';
+}
+#navUl{
+    display: flex; 
+   list-style-type: none;
+   padding: 0px;
+   
+}
+.nav-item{
+    
+    margin-right: 65px;
+    margin-bottom: 40px;
+    color: #ffc800;
+}
+#welcome{
+    text-align: center;
+    margin-top: 250px;
+    color: white;
+    font-size: 30px;
+}
+#WelcomeMeet{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+#btn{
+    align-items: center;
+    justify-items: center;
+    margin-left: 658px;
+    margin-top: 30px;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    border: 1px solid #ffc800;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab', serif;
+    background-color: #ffc800;
+    transition: 0.2s;
+    
+
+}
+button:hover{
+    background-color: #ac8806;
+}
+.navbar{
+    height: 100px;
+}
+#main{
+    margin-top: 350px;
+}
+body{
+    
+    background-image: url(./DDD.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Roboto Slab', serif;
+}
+
+#name{
+    display: inline-block;
+    width: 800px;
+}
+#list{
+    display: inline-block;
+    
+    
+}
+#services{
+    text-align: center;
+    margin-top: 180px;
+    font-size: 45px;
+}
+p{
+    color: darkgray;
+    
+}
+.mainP{
+    text-align: center;
+    margin-top: 20px;
+}
+.row{
+    display: flex;
+
+}
+.col{
+    align-items: center;
+    margin-left: 296px;
+    font-size: 99px;
+    color: #ffc800;
+}
+.ServiceList1{
+    margin-left: 265px
+}
+.ServiceList2{
+    margin-left: 156px
+}
+.ServiceList3{
+    margin-left: 163px
+}
+.ServiceParagraf1{
+    text-align: center;
+    width: 300px;
+    margin-left: 213px;
+}
+.ServiceParagraf2{
+    text-align: center;
+    width: 300px;
+    margin-left: 94px;
+}
+.ServiceParagraf3{
+    text-align: center;
+    width: 300px;
+    margin-left: 114px;
+}
+#paragrafEcommerce{
+    
+    display: inline-block;
+  
+}
+#portfolio{
+    margin-top: 200px;
+}
+.prtflioTXT{
+    text-align: center;
+    
+}
+.prtflioTXTT{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 140px;
+   
+  }
+  .imgPRT{
+    width: 450px;
+    height: auto;
+    margin-left: 22px;
+    margin-top: 20px;
+    transition: 0.3s;
+    background: #ffc800;
+    
+  }
+  .imgPRT:hover{
+    background: #ffc800;
+      opacity: 0.6;
+    
+    
+  }
+  .ImgTexts{
+    text-align: center;
+  }
+  .Txt{
+    margin-top: 60px;
+  }
+  #imgAbout{
+    margin-left: 612px;
+    display: inline-block;
+  }
+.imgLists{
+    
+    border-radius: 50%;
+    margin-bottom: 170px;
+    
+}
+#imgListParagraf{
+    
+    color: white;
+    line-height: 49px;
+    
+}
+#imgListParagrafDiv{
+    border-radius: 50%;
+    border: 8px solid #e9ecef;
+    width: 200px;
+    height: 200px;
+    background-color: #ffc800;
+    margin-left: 28px;
+    text-align: center;
+    margin-bottom: 170px;
+}
+.AboutBegin{
+    text-align: right;
+}
+#AboutBeginDiv{
+    display: inline-block;
+    width: 400px;
+    
+}
+#AboutBorn{
+    text-align: left;
+}
+#AboutBornDiv{
+    display: inline-block;
+    width: 400px;
+}
+#AboutServiceDiv{
+    display: inline-block;
+    width: 400px;
+}
+#AboutService{
+    text-align: right;
+}
+#AboutExpansionDiv{
+    display: inline-block;
+    width: 400px;
+}
+#AboutExpansion{
+    text-align: left;
+}
+#imageUl{
+    display: inline-block;
+}
+.Personal{
+    width: 200px;
+    height: auto;
+    margin-left: 185px;
+    border-radius: 50%;
+    border: 7px solid rgb(194, 189, 189);
+    margin-top: 40px;
+}
+.PersonalNameUl{
+    list-style-type: none;
+    display: flex;
+}
+.PersonalName{
+    margin-left: 177px;
+}
+.PersonalInfoUl{
+    list-style-type: none;
+    display: flex;
+}
+.PersonalInfo1{
+    margin-left: 233px;
+    color: gray;
+}
+.PersonalInfo2{
+    margin-left: 298px;
+    color: gray;
+}
+.PersonalInfo3{
+    margin-left: 288px;
+    color: gray;
+}
+.social{
+    margin-left: 171px;
+    margin-bottom: 60px;
+}
+.personalParagraph{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+#contact{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(48, 45, 45);
+    
+}
+#contactHeader{
+    text-align: center;
+    
+   
+}
+.ContactUs{
+    color: white;
+    font-size: 45px;
+   
+}
+.inp{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    border-radius: 7px;
+    margin-left: 90px;
+    margin-bottom: 30px;margin-top: 40px;
+}
+#InpUl{
+    display: inline-block;
+}
+#bigInp{
+ top: 0px;
+ margin-left: 150px;
+ width: 500px;
+ height: 300px;
+ display: inline-block;
+}
+#footer{
+    width: 100%;
+    height: 20px;
+}
+.footerP{
+    display: inline-block;
+    margin-left: 30px;
+}
+.footerSocial{
+    margin-left: 335px;
+    
+}
+.FooterPriv{
+    display: inline-block;
+    margin-left: 400px;
+}
